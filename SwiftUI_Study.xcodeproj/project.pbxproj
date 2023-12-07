@@ -14,6 +14,7 @@
 		3B51DDAB2B2205B800C757CF /* SwiftUI_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DDAA2B2205B800C757CF /* SwiftUI_StudyTests.swift */; };
 		3B51DDB52B2205B800C757CF /* SwiftUI_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DDB42B2205B800C757CF /* SwiftUI_StudyUITests.swift */; };
 		3B51DDB72B2205B800C757CF /* SwiftUI_StudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DDB62B2205B800C757CF /* SwiftUI_StudyUITestsLaunchTests.swift */; };
+		3B51DDC52B2206D800C757CF /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DDC42B2206D800C757CF /* AppStorageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3B51DDB02B2205B800C757CF /* SwiftUI_StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_StudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B51DDB42B2205B800C757CF /* SwiftUI_StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_StudyUITests.swift; sourceTree = "<group>"; };
 		3B51DDB62B2205B800C757CF /* SwiftUI_StudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_StudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B51DDC42B2206D800C757CF /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		3B51DD982B2205B600C757CF /* SwiftUI_Study */ = {
 			isa = PBXGroup;
 			children = (
+				3B51DDC32B2206AD00C757CF /* PropertyWrapperView */,
 				3B51DD992B2205B600C757CF /* SwiftUI_StudyApp.swift */,
 				3B51DD9B2B2205B600C757CF /* ContentView.swift */,
 				3B51DD9D2B2205B700C757CF /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				3B51DDB62B2205B800C757CF /* SwiftUI_StudyUITestsLaunchTests.swift */,
 			);
 			path = SwiftUI_StudyUITests;
+			sourceTree = "<group>";
+		};
+		3B51DDC32B2206AD00C757CF /* PropertyWrapperView */ = {
+			isa = PBXGroup;
+			children = (
+				3B51DDC42B2206D800C757CF /* AppStorageView.swift */,
+			);
+			path = PropertyWrapperView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B51DDC52B2206D800C757CF /* AppStorageView.swift in Sources */,
 				3B51DD9C2B2205B600C757CF /* ContentView.swift in Sources */,
 				3B51DD9A2B2205B600C757CF /* SwiftUI_StudyApp.swift in Sources */,
 			);
