@@ -15,6 +15,9 @@
 		3B51DDB52B2205B800C757CF /* SwiftUI_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DDB42B2205B800C757CF /* SwiftUI_StudyUITests.swift */; };
 		3B51DDB72B2205B800C757CF /* SwiftUI_StudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DDB62B2205B800C757CF /* SwiftUI_StudyUITestsLaunchTests.swift */; };
 		3B51DDC52B2206D800C757CF /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DDC42B2206D800C757CF /* AppStorageView.swift */; };
+		3B51DDC72B22082200C757CF /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DDC62B22082200C757CF /* FruitModel.swift */; };
+		3B51DDC92B2208EB00C757CF /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DDC82B2208EB00C757CF /* StateView.swift */; };
+		3B51DDCB2B2209FB00C757CF /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DDCA2B2209FB00C757CF /* BindingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		3B51DDB42B2205B800C757CF /* SwiftUI_StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_StudyUITests.swift; sourceTree = "<group>"; };
 		3B51DDB62B2205B800C757CF /* SwiftUI_StudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_StudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3B51DDC42B2206D800C757CF /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
+		3B51DDC62B22082200C757CF /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		3B51DDC82B2208EB00C757CF /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		3B51DDCA2B2209FB00C757CF /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +102,13 @@
 		3B51DD982B2205B600C757CF /* SwiftUI_Study */ = {
 			isa = PBXGroup;
 			children = (
-				3B51DDC32B2206AD00C757CF /* PropertyWrapperView */,
 				3B51DD992B2205B600C757CF /* SwiftUI_StudyApp.swift */,
 				3B51DD9B2B2205B600C757CF /* ContentView.swift */,
+				3B51DDC32B2206AD00C757CF /* PropertyWrapperView */,
 				3B51DD9D2B2205B700C757CF /* Assets.xcassets */,
 				3B51DD9F2B2205B700C757CF /* Preview Content */,
+				3B51DDC62B22082200C757CF /* FruitModel.swift */,
+				3B51DDC82B2208EB00C757CF /* StateView.swift */,
 			);
 			path = SwiftUI_Study;
 			sourceTree = "<group>";
@@ -109,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				3B51DDA02B2205B700C757CF /* Preview Assets.xcassets */,
+				3B51DDCA2B2209FB00C757CF /* BindingView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -270,6 +279,9 @@
 			files = (
 				3B51DDC52B2206D800C757CF /* AppStorageView.swift in Sources */,
 				3B51DD9C2B2205B600C757CF /* ContentView.swift in Sources */,
+				3B51DDCB2B2209FB00C757CF /* BindingView.swift in Sources */,
+				3B51DDC92B2208EB00C757CF /* StateView.swift in Sources */,
+				3B51DDC72B22082200C757CF /* FruitModel.swift in Sources */,
 				3B51DD9A2B2205B600C757CF /* SwiftUI_StudyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
