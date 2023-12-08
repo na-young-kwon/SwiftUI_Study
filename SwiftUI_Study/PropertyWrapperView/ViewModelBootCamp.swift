@@ -41,6 +41,10 @@ struct ViewModelBootCamp: View {
                         })
                 }
             }
+            .onAppear {
+                RealmManager.shared.create(FruitModel(name: "복숭아", count: 3))
+                _ = RealmManager.shared.read()
+            }
         }
     }
 }
