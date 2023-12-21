@@ -11,6 +11,8 @@
 		08A997CC2B33FBE60014F24C /* EnvironmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A997CB2B33FBE60014F24C /* EnvironmentViewModel.swift */; };
 		08A997D12B33FD520014F24C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A997D02B33FD520014F24C /* DetailView.swift */; };
 		08A997D32B33FDA70014F24C /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A997D22B33FDA70014F24C /* FinalView.swift */; };
+		08A997D72B341CDA0014F24C /* HeaderViewGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A997D62B341CDA0014F24C /* HeaderViewGeneric.swift */; };
+		08A997DA2B341DA40014F24C /* ViewBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A997D92B341DA40014F24C /* ViewBuilderView.swift */; };
 		3B51DD9A2B2205B600C757CF /* SwiftUI_StudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DD992B2205B600C757CF /* SwiftUI_StudyApp.swift */; };
 		3B51DD9C2B2205B600C757CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DD9B2B2205B600C757CF /* ContentView.swift */; };
 		3B51DD9E2B2205B700C757CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B51DD9D2B2205B700C757CF /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 		08A997CB2B33FBE60014F24C /* EnvironmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentViewModel.swift; sourceTree = "<group>"; };
 		08A997D02B33FD520014F24C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		08A997D22B33FDA70014F24C /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
+		08A997D62B341CDA0014F24C /* HeaderViewGeneric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewGeneric.swift; sourceTree = "<group>"; };
+		08A997D92B341DA40014F24C /* ViewBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderView.swift; sourceTree = "<group>"; };
 		3B51DD962B2205B600C757CF /* SwiftUI_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B51DD992B2205B600C757CF /* SwiftUI_StudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_StudyApp.swift; sourceTree = "<group>"; };
 		3B51DD9B2B2205B600C757CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +112,15 @@
 			path = "State + Observed";
 			sourceTree = "<group>";
 		};
+		08A997D82B341CDC0014F24C /* ViewBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				08A997D62B341CDA0014F24C /* HeaderViewGeneric.swift */,
+				08A997D92B341DA40014F24C /* ViewBuilderView.swift */,
+			);
+			path = ViewBuilder;
+			sourceTree = "<group>";
+		};
 		3B51DD8D2B2205B600C757CF = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				3B51DD992B2205B600C757CF /* SwiftUI_StudyApp.swift */,
+				3B51DD9B2B2205B600C757CF /* ContentView.swift */,
 				3B51DDC32B2206AD00C757CF /* View */,
 				08A997CE2B33FBFA0014F24C /* Model */,
 				08A997CD2B33FBED0014F24C /* ViewModel */,
@@ -169,10 +183,10 @@
 		3B51DDC32B2206AD00C757CF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3B51DD9B2B2205B600C757CF /* ContentView.swift */,
 				3B51DDC42B2206D800C757CF /* AppStorageView.swift */,
 				08A997D42B33FDAD0014F24C /* Environment */,
 				08A997D52B33FDBB0014F24C /* State + Observed */,
+				08A997D82B341CDC0014F24C /* ViewBuilder */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -255,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B51DDC52B2206D800C757CF /* AppStorageView.swift in Sources */,
+				08A997D72B341CDA0014F24C /* HeaderViewGeneric.swift in Sources */,
 				3B51DD9C2B2205B600C757CF /* ContentView.swift in Sources */,
 				08A997CC2B33FBE60014F24C /* EnvironmentViewModel.swift in Sources */,
 				3B51DDCB2B2209FB00C757CF /* BindingView.swift in Sources */,
@@ -266,6 +281,7 @@
 				3B51DDC92B2208EB00C757CF /* StateView.swift in Sources */,
 				3B51DDC72B22082200C757CF /* FruitModel.swift in Sources */,
 				3B51DDD32B23573E00C757CF /* RealmManager.swift in Sources */,
+				08A997DA2B341DA40014F24C /* ViewBuilderView.swift in Sources */,
 				3B51DD9A2B2205B600C757CF /* SwiftUI_StudyApp.swift in Sources */,
 				3B51DDD12B2223FC00C757CF /* RandomScene.swift in Sources */,
 			);
