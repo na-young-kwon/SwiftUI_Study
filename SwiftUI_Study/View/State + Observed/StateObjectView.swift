@@ -1,5 +1,5 @@
 //
-//  ViewModelBootCamp.swift
+//  StateObjectView.swift
 //  SwiftUI_Study
 //
 //  Created by 권나영 on 2023/12/08.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ViewModelBootCamp: View {
+struct StateObjectView: View {
     @StateObject var fruitViewModel: FruitViewModel = FruitViewModel()
     
     var body: some View {
@@ -26,7 +26,6 @@ struct ViewModelBootCamp: View {
                         }
                     }
                     .onDelete(perform: fruitViewModel.deleteFruit)
-                    
                 }
             }
         .listStyle(GroupedListStyle())
@@ -41,10 +40,10 @@ struct ViewModelBootCamp: View {
                         })
                 }
             }
-            .onAppear {
-                RealmManager.shared.create(FruitModel(name: "복숭아", count: 3))
-                _ = RealmManager.shared.read()
-            }
+//            .onAppear {
+//                RealmManager.shared.create(FruitModel(name: "복숭아", count: 3))
+//                _ = RealmManager.shared.read()
+//            }
         }
     }
 }
@@ -52,6 +51,6 @@ struct ViewModelBootCamp: View {
 
 struct ViewModelBootCamp_Previews: PreviewProvider {
     static var previews: some View {
-        ViewModelBootCamp()
+        StateObjectView()
     }
 }

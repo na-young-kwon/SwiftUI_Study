@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08A997CA2B33E54B0014F24C /* EnvironmentObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A997C92B33E54B0014F24C /* EnvironmentObjectView.swift */; };
+		08A997CC2B33FBE60014F24C /* EnvironmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A997CB2B33FBE60014F24C /* EnvironmentViewModel.swift */; };
+		08A997D12B33FD520014F24C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A997D02B33FD520014F24C /* DetailView.swift */; };
+		08A997D32B33FDA70014F24C /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A997D22B33FDA70014F24C /* FinalView.swift */; };
 		3B51DD9A2B2205B600C757CF /* SwiftUI_StudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DD992B2205B600C757CF /* SwiftUI_StudyApp.swift */; };
 		3B51DD9C2B2205B600C757CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DD9B2B2205B600C757CF /* ContentView.swift */; };
 		3B51DD9E2B2205B700C757CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B51DD9D2B2205B700C757CF /* Assets.xcassets */; };
@@ -16,7 +20,7 @@
 		3B51DDC92B2208EB00C757CF /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DDC82B2208EB00C757CF /* StateView.swift */; };
 		3B51DDCB2B2209FB00C757CF /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DDCA2B2209FB00C757CF /* BindingView.swift */; };
 		3B51DDCD2B22191700C757CF /* FruitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DDCC2B22191700C757CF /* FruitViewModel.swift */; };
-		3B51DDCF2B221A7A00C757CF /* ViewModelBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DDCE2B221A7A00C757CF /* ViewModelBootCamp.swift */; };
+		3B51DDCF2B221A7A00C757CF /* StateObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DDCE2B221A7A00C757CF /* StateObjectView.swift */; };
 		3B51DDD12B2223FC00C757CF /* RandomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DDD02B2223FC00C757CF /* RandomScene.swift */; };
 		3B51DDD32B23573E00C757CF /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DDD22B23573E00C757CF /* RealmManager.swift */; };
 		3B51DDD62B23582200C757CF /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 3B51DDD52B23582200C757CF /* Realm */; };
@@ -24,6 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08A997C92B33E54B0014F24C /* EnvironmentObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectView.swift; sourceTree = "<group>"; };
+		08A997CB2B33FBE60014F24C /* EnvironmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentViewModel.swift; sourceTree = "<group>"; };
+		08A997D02B33FD520014F24C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		08A997D22B33FDA70014F24C /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
 		3B51DD962B2205B600C757CF /* SwiftUI_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B51DD992B2205B600C757CF /* SwiftUI_StudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_StudyApp.swift; sourceTree = "<group>"; };
 		3B51DD9B2B2205B600C757CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,7 +45,7 @@
 		3B51DDC82B2208EB00C757CF /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		3B51DDCA2B2209FB00C757CF /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		3B51DDCC2B22191700C757CF /* FruitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitViewModel.swift; sourceTree = "<group>"; };
-		3B51DDCE2B221A7A00C757CF /* ViewModelBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBootCamp.swift; sourceTree = "<group>"; };
+		3B51DDCE2B221A7A00C757CF /* StateObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectView.swift; sourceTree = "<group>"; };
 		3B51DDD02B2223FC00C757CF /* RandomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomScene.swift; sourceTree = "<group>"; };
 		3B51DDD22B23573E00C757CF /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,6 +63,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08A997CD2B33FBED0014F24C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				08A997CB2B33FBE60014F24C /* EnvironmentViewModel.swift */,
+				3B51DDCC2B22191700C757CF /* FruitViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		08A997CE2B33FBFA0014F24C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B51DDC62B22082200C757CF /* FruitModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08A997CF2B33FC010014F24C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3B51DDD22B23573E00C757CF /* RealmManager.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		08A997D42B33FDAD0014F24C /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				08A997C92B33E54B0014F24C /* EnvironmentObjectView.swift */,
+				08A997D02B33FD520014F24C /* DetailView.swift */,
+				08A997D22B33FDA70014F24C /* FinalView.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		08A997D52B33FDBB0014F24C /* State + Observed */ = {
+			isa = PBXGroup;
+			children = (
+				3B51DDD02B2223FC00C757CF /* RandomScene.swift */,
+				3B51DDC82B2208EB00C757CF /* StateView.swift */,
+				3B51DDCE2B221A7A00C757CF /* StateObjectView.swift */,
+			);
+			path = "State + Observed";
+			sourceTree = "<group>";
+		};
 		3B51DD8D2B2205B600C757CF = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +130,10 @@
 			isa = PBXGroup;
 			children = (
 				3B51DD992B2205B600C757CF /* SwiftUI_StudyApp.swift */,
-				3B51DD9B2B2205B600C757CF /* ContentView.swift */,
-				3B51DDCC2B22191700C757CF /* FruitViewModel.swift */,
-				3B51DDC62B22082200C757CF /* FruitModel.swift */,
-				3B51DDD22B23573E00C757CF /* RealmManager.swift */,
-				3B51DDC32B2206AD00C757CF /* PropertyWrapperView */,
+				3B51DDC32B2206AD00C757CF /* View */,
+				08A997CE2B33FBFA0014F24C /* Model */,
+				08A997CD2B33FBED0014F24C /* ViewModel */,
+				08A997CF2B33FC010014F24C /* Utility */,
 				3B51DD9D2B2205B700C757CF /* Assets.xcassets */,
 				3B51DD9F2B2205B700C757CF /* Preview Content */,
 			);
@@ -114,15 +166,15 @@
 			path = SwiftUI_StudyUITests;
 			sourceTree = "<group>";
 		};
-		3B51DDC32B2206AD00C757CF /* PropertyWrapperView */ = {
+		3B51DDC32B2206AD00C757CF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3B51DD9B2B2205B600C757CF /* ContentView.swift */,
 				3B51DDC42B2206D800C757CF /* AppStorageView.swift */,
-				3B51DDC82B2208EB00C757CF /* StateView.swift */,
-				3B51DDCE2B221A7A00C757CF /* ViewModelBootCamp.swift */,
-				3B51DDD02B2223FC00C757CF /* RandomScene.swift */,
+				08A997D42B33FDAD0014F24C /* Environment */,
+				08A997D52B33FDBB0014F24C /* State + Observed */,
 			);
-			path = PropertyWrapperView;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +256,13 @@
 			files = (
 				3B51DDC52B2206D800C757CF /* AppStorageView.swift in Sources */,
 				3B51DD9C2B2205B600C757CF /* ContentView.swift in Sources */,
+				08A997CC2B33FBE60014F24C /* EnvironmentViewModel.swift in Sources */,
 				3B51DDCB2B2209FB00C757CF /* BindingView.swift in Sources */,
-				3B51DDCF2B221A7A00C757CF /* ViewModelBootCamp.swift in Sources */,
+				3B51DDCF2B221A7A00C757CF /* StateObjectView.swift in Sources */,
+				08A997CA2B33E54B0014F24C /* EnvironmentObjectView.swift in Sources */,
 				3B51DDCD2B22191700C757CF /* FruitViewModel.swift in Sources */,
+				08A997D32B33FDA70014F24C /* FinalView.swift in Sources */,
+				08A997D12B33FD520014F24C /* DetailView.swift in Sources */,
 				3B51DDC92B2208EB00C757CF /* StateView.swift in Sources */,
 				3B51DDC72B22082200C757CF /* FruitModel.swift in Sources */,
 				3B51DDD32B23573E00C757CF /* RealmManager.swift in Sources */,
