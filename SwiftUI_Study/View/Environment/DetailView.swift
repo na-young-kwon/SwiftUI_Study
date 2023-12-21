@@ -16,7 +16,8 @@ struct DetailView: View {
             Color.orange.ignoresSafeArea()
             
             NavigationLink {
-                FinalView(viewModel: viewModel)
+                // FinalView(viewModel: viewModel)
+                FinalView() // 뷰모델 전달해주지 않아도 됨
             } label: {
                 Text(selectedItem)
                     .font(.headline)

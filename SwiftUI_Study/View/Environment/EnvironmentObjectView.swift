@@ -22,6 +22,8 @@ struct EnvironmentObjectView: View {
                 }
             }
         }
+        // 이 뷰와 연결된 모든 뷰에 viewModel을 선택적으로 불러올 수 있게 됨
+        .environmentObject(viewModel)
     }
 }
 

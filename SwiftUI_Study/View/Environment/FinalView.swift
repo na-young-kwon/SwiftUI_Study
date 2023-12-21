@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FinalView: View {
-    @ObservedObject var viewModel: EnvironmentViewModel
+    @EnvironmentObject var viewModel: EnvironmentViewModel
     
     var body: some View {
         ZStack {
