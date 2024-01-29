@@ -20,6 +20,7 @@
 		08A997DA2B341DA40014F24C /* ViewBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A997D92B341DA40014F24C /* ViewBuilderView.swift */; };
 		08A997DC2B34219A0014F24C /* LocalViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A997DB2B34219A0014F24C /* LocalViewBuilder.swift */; };
 		08A997DE2B3576700014F24C /* View + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A997DD2B3576700014F24C /* View + Extension.swift */; };
+		08DBF6FD2B67377A009855CB /* MovingTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DBF6FC2B67377A009855CB /* MovingTabView.swift */; };
 		3B51DD9A2B2205B600C757CF /* SwiftUI_StudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DD992B2205B600C757CF /* SwiftUI_StudyApp.swift */; };
 		3B51DD9C2B2205B600C757CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DD9B2B2205B600C757CF /* ContentView.swift */; };
 		3B51DD9E2B2205B700C757CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B51DD9D2B2205B700C757CF /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		08A997D92B341DA40014F24C /* ViewBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderView.swift; sourceTree = "<group>"; };
 		08A997DB2B34219A0014F24C /* LocalViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalViewBuilder.swift; sourceTree = "<group>"; };
 		08A997DD2B3576700014F24C /* View + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Extension.swift"; sourceTree = "<group>"; };
+		08DBF6FC2B67377A009855CB /* MovingTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingTabView.swift; sourceTree = "<group>"; };
 		3B51DD962B2205B600C757CF /* SwiftUI_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B51DD992B2205B600C757CF /* SwiftUI_StudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_StudyApp.swift; sourceTree = "<group>"; };
 		3B51DD9B2B2205B600C757CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -150,6 +152,14 @@
 			path = ViewBuilder;
 			sourceTree = "<group>";
 		};
+		08DBF6FB2B673747009855CB /* ScrollViewReader */ = {
+			isa = PBXGroup;
+			children = (
+				08DBF6FC2B67377A009855CB /* MovingTabView.swift */,
+			);
+			path = ScrollViewReader;
+			sourceTree = "<group>";
+		};
 		3B51DD8D2B2205B600C757CF = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +222,7 @@
 		3B51DDC32B2206AD00C757CF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				08DBF6FB2B673747009855CB /* ScrollViewReader */,
 				08789F872B58ADF9004163D1 /* Rendering 관련 */,
 				3B51DDC42B2206D800C757CF /* AppStorageView.swift */,
 				08A997D42B33FDAD0014F24C /* Environment */,
@@ -314,6 +325,7 @@
 				08A997D32B33FDA70014F24C /* FinalView.swift in Sources */,
 				08A997D12B33FD520014F24C /* DetailView.swift in Sources */,
 				3B51DDC92B2208EB00C757CF /* StateView.swift in Sources */,
+				08DBF6FD2B67377A009855CB /* MovingTabView.swift in Sources */,
 				3B51DDC72B22082200C757CF /* FruitModel.swift in Sources */,
 				3B51DDD32B23573E00C757CF /* RealmManager.swift in Sources */,
 				08A997DA2B341DA40014F24C /* ViewBuilderView.swift in Sources */,
