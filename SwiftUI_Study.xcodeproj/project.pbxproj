@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08789F892B58AE10004163D1 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08789F882B58AE10004163D1 /* FirstView.swift */; };
+		08789F8B2B58AE17004163D1 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08789F8A2B58AE17004163D1 /* SecondView.swift */; };
+		08789F8D2B58AE1C004163D1 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08789F8C2B58AE1C004163D1 /* ThirdView.swift */; };
+		08789F8F2B58AE23004163D1 /* RenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08789F8E2B58AE23004163D1 /* RenderView.swift */; };
+		08789F922B58B692004163D1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08789F912B58B692004163D1 /* ViewModel.swift */; };
 		08A997CA2B33E54B0014F24C /* EnvironmentObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A997C92B33E54B0014F24C /* EnvironmentObjectView.swift */; };
 		08A997CC2B33FBE60014F24C /* EnvironmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A997CB2B33FBE60014F24C /* EnvironmentViewModel.swift */; };
 		08A997D12B33FD520014F24C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A997D02B33FD520014F24C /* DetailView.swift */; };
@@ -32,6 +37,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08789F882B58AE10004163D1 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		08789F8A2B58AE17004163D1 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		08789F8C2B58AE1C004163D1 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		08789F8E2B58AE23004163D1 /* RenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderView.swift; sourceTree = "<group>"; };
+		08789F912B58B692004163D1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		08A997C92B33E54B0014F24C /* EnvironmentObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectView.swift; sourceTree = "<group>"; };
 		08A997CB2B33FBE60014F24C /* EnvironmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentViewModel.swift; sourceTree = "<group>"; };
 		08A997D02B33FD520014F24C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -71,6 +81,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08789F872B58ADF9004163D1 /* Rendering 관련 */ = {
+			isa = PBXGroup;
+			children = (
+				08789F8E2B58AE23004163D1 /* RenderView.swift */,
+				08789F882B58AE10004163D1 /* FirstView.swift */,
+				08789F8A2B58AE17004163D1 /* SecondView.swift */,
+				08789F8C2B58AE1C004163D1 /* ThirdView.swift */,
+				08789F912B58B692004163D1 /* ViewModel.swift */,
+			);
+			name = "Rendering 관련";
+			path = "Rendering 관련";
+			sourceTree = "<group>";
+		};
 		08A997CD2B33FBED0014F24C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +212,7 @@
 		3B51DDC32B2206AD00C757CF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				08789F872B58ADF9004163D1 /* Rendering 관련 */,
 				3B51DDC42B2206D800C757CF /* AppStorageView.swift */,
 				08A997D42B33FDAD0014F24C /* Environment */,
 				08A997D52B33FDBB0014F24C /* State + Observed */,
@@ -279,8 +303,13 @@
 				3B51DD9C2B2205B600C757CF /* ContentView.swift in Sources */,
 				08A997CC2B33FBE60014F24C /* EnvironmentViewModel.swift in Sources */,
 				3B51DDCB2B2209FB00C757CF /* BindingView.swift in Sources */,
+				08789F922B58B692004163D1 /* ViewModel.swift in Sources */,
 				3B51DDCF2B221A7A00C757CF /* StateObjectView.swift in Sources */,
+				08789F8B2B58AE17004163D1 /* SecondView.swift in Sources */,
+				08789F8D2B58AE1C004163D1 /* ThirdView.swift in Sources */,
 				08A997CA2B33E54B0014F24C /* EnvironmentObjectView.swift in Sources */,
+				08789F892B58AE10004163D1 /* FirstView.swift in Sources */,
+				08789F8F2B58AE23004163D1 /* RenderView.swift in Sources */,
 				3B51DDCD2B22191700C757CF /* FruitViewModel.swift in Sources */,
 				08A997D32B33FDA70014F24C /* FinalView.swift in Sources */,
 				08A997D12B33FD520014F24C /* DetailView.swift in Sources */,

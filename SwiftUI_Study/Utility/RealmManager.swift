@@ -35,7 +35,6 @@ struct RealmManager {
 
     func read() -> FruitModelForRealM? {
         let fruitModel = realm.objects(FruitModelForRealM.self).first
-        print(fruitModel)
         return fruitModel
     }
 }
