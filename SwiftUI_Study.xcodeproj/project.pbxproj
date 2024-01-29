@@ -23,6 +23,7 @@
 		08DBF6FD2B67377A009855CB /* MovingTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DBF6FC2B67377A009855CB /* MovingTabView.swift */; };
 		08DBF6FF2B6737D4009855CB /* ScrollViewReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DBF6FE2B6737D4009855CB /* ScrollViewReaderView.swift */; };
 		08DBF7012B6738A5009855CB /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DBF7002B6738A5009855CB /* GridView.swift */; };
+		08DBF7042B673AC6009855CB /* ChipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DBF7032B673AC6009855CB /* ChipsView.swift */; };
 		3B51DD9A2B2205B600C757CF /* SwiftUI_StudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DD992B2205B600C757CF /* SwiftUI_StudyApp.swift */; };
 		3B51DD9C2B2205B600C757CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DD9B2B2205B600C757CF /* ContentView.swift */; };
 		3B51DD9E2B2205B700C757CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B51DD9D2B2205B700C757CF /* Assets.xcassets */; };
@@ -56,6 +57,7 @@
 		08DBF6FC2B67377A009855CB /* MovingTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingTabView.swift; sourceTree = "<group>"; };
 		08DBF6FE2B6737D4009855CB /* ScrollViewReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderView.swift; sourceTree = "<group>"; };
 		08DBF7002B6738A5009855CB /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		08DBF7032B673AC6009855CB /* ChipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsView.swift; sourceTree = "<group>"; };
 		3B51DD962B2205B600C757CF /* SwiftUI_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B51DD992B2205B600C757CF /* SwiftUI_StudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_StudyApp.swift; sourceTree = "<group>"; };
 		3B51DD9B2B2205B600C757CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -227,13 +229,14 @@
 		3B51DDC32B2206AD00C757CF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				08DBF6FB2B673747009855CB /* ScrollViewReader */,
-				08789F872B58ADF9004163D1 /* Rendering */,
-				3B51DDC42B2206D800C757CF /* AppStorageView.swift */,
-				08A997D42B33FDAD0014F24C /* Environment */,
 				08A997D52B33FDBB0014F24C /* State + Observed */,
+				08A997D42B33FDAD0014F24C /* Environment */,
+				08789F872B58ADF9004163D1 /* Rendering */,
 				08A997D82B341CDC0014F24C /* ViewBuilder */,
+				08DBF6FB2B673747009855CB /* ScrollViewReader */,
+				3B51DDC42B2206D800C757CF /* AppStorageView.swift */,
 				08DBF7002B6738A5009855CB /* GridView.swift */,
+				08DBF7032B673AC6009855CB /* ChipsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				08A997CC2B33FBE60014F24C /* EnvironmentViewModel.swift in Sources */,
 				3B51DDCB2B2209FB00C757CF /* BindingView.swift in Sources */,
 				08789F922B58B692004163D1 /* ViewModel.swift in Sources */,
+				08DBF7042B673AC6009855CB /* ChipsView.swift in Sources */,
 				3B51DDCF2B221A7A00C757CF /* StateObjectView.swift in Sources */,
 				08789F8B2B58AE17004163D1 /* SecondView.swift in Sources */,
 				08DBF6FF2B6737D4009855CB /* ScrollViewReaderView.swift in Sources */,
