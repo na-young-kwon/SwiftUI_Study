@@ -33,6 +33,7 @@ struct ChipsContainerView: View {
     
     var body: some View {
         
+        // width, height는 현재 칩의 위치를 계산하는데 사용됨
         var width = CGFloat.zero
         var height = CGFloat.zero
         
@@ -47,21 +48,18 @@ struct ChipsContainerView: View {
                         .alignmentGuide(.leading) { view in // 세로 방향 위치 조정
                             
                             // width가 부모의 width를 초과하면 (geometry - 부모, view - 자식 인듯?)
-                            if abs(width - view.width) > geometry.size.width {
+                            if abs(width - view.width) > geometry.size.width { // 현재 줄에 더 이상 칩을 추가할 공간이 없을 때
                                 width = 0
-                                height -= view.height
-                                height -= verticalSpacing
+                                height -= (view.height + verticalSpacing) // height를 그 뷰의 높이와 수직만큼 감소시켜 다음줄로 이동
                             }
-                            let result = width
+                            let result = width // 현재 칩의 x 위치를 result에 임시 저장
                             
-                            // 마지막 뷰가 배치되면 다시 width와 height을 초기화 시킨다
                             if chip == sortedItems.last {
-                                width = 0
+                                width = 0 // 마지막 뷰가 배치되면 다시 width와 height을 초기화 시킨다
                             } else {
-                                width -= view.width
-                                width -= horizontalSpacing
+                                width -= (view.width + horizontalSpacing) // 마지막 칩이 아닌경우, 현재 width에서 그 view의 너비와 수평 간격을 빼서 다음 칩의 위치를 준비한다
                             }
-                            return result
+                            return result // 계산된 x위치 반환
                         }
                     
                         .alignmentGuide(.top) { _ in // 세로 방향 위치 조정
@@ -74,15 +72,17 @@ struct ChipsContainerView: View {
                         }
                 }
             }
+            .background(Color.red)
             .background(
+                // 칩들이 모두 배치된 후 최종높이 계산
                 GeometryReader { geometry in
                     Color.clear.onAppear {
-                        totalHeight = geometry.size.height
+                        totalHeight = geometry.size.height // 최종 높이 설정
                     }
                 }
             )
         }
-        .frame(height: totalHeight)
+        .frame(height: totalHeight) // 계산된 높이를 설정된 값으로 지정하여 동적으로 뷰의 높이 조정
     }
 }
 
