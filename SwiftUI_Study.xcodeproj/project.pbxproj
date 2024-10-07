@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		081233102CB372DB00F84F31 /* RoomInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0812330F2CB372DB00F84F31 /* RoomInfo.swift */; };
+		081233122CB372E100F84F31 /* RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081233112CB372E100F84F31 /* RoomDetail.swift */; };
+		081233142CB3734600F84F31 /* HomeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081233132CB3734600F84F31 /* HomeListView.swift */; };
+		081233162CB3735000F84F31 /* RoomDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081233152CB3735000F84F31 /* RoomDetailView.swift */; };
+		081233182CB3759500F84F31 /* PaintInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081233172CB3759500F84F31 /* PaintInfo.swift */; };
 		08789F892B58AE10004163D1 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08789F882B58AE10004163D1 /* FirstView.swift */; };
 		08789F8B2B58AE17004163D1 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08789F8A2B58AE17004163D1 /* SecondView.swift */; };
 		08789F8D2B58AE1C004163D1 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08789F8C2B58AE1C004163D1 /* ThirdView.swift */; };
@@ -41,6 +46,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0812330F2CB372DB00F84F31 /* RoomInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomInfo.swift; sourceTree = "<group>"; };
+		081233112CB372E100F84F31 /* RoomDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetail.swift; sourceTree = "<group>"; };
+		081233132CB3734600F84F31 /* HomeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListView.swift; sourceTree = "<group>"; };
+		081233152CB3735000F84F31 /* RoomDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailView.swift; sourceTree = "<group>"; };
+		081233172CB3759500F84F31 /* PaintInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintInfo.swift; sourceTree = "<group>"; };
 		08789F882B58AE10004163D1 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		08789F8A2B58AE17004163D1 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		08789F8C2B58AE1C004163D1 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
@@ -115,6 +125,9 @@
 			isa = PBXGroup;
 			children = (
 				3B51DDC62B22082200C757CF /* FruitModel.swift */,
+				0812330F2CB372DB00F84F31 /* RoomInfo.swift */,
+				081233112CB372E100F84F31 /* RoomDetail.swift */,
+				081233172CB3759500F84F31 /* PaintInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -237,6 +250,8 @@
 				3B51DDC42B2206D800C757CF /* AppStorageView.swift */,
 				08DBF7002B6738A5009855CB /* GridView.swift */,
 				08DBF7032B673AC6009855CB /* ChipsView.swift */,
+				081233132CB3734600F84F31 /* HomeListView.swift */,
+				081233152CB3735000F84F31 /* RoomDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -319,13 +334,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B51DDC52B2206D800C757CF /* AppStorageView.swift in Sources */,
+				081233162CB3735000F84F31 /* RoomDetailView.swift in Sources */,
 				08A997D72B341CDA0014F24C /* HeaderViewGeneric.swift in Sources */,
 				3B51DD9C2B2205B600C757CF /* ContentView.swift in Sources */,
 				08A997CC2B33FBE60014F24C /* EnvironmentViewModel.swift in Sources */,
 				3B51DDCB2B2209FB00C757CF /* BindingView.swift in Sources */,
 				08789F922B58B692004163D1 /* ViewModel.swift in Sources */,
+				081233122CB372E100F84F31 /* RoomDetail.swift in Sources */,
 				08DBF7042B673AC6009855CB /* ChipsView.swift in Sources */,
 				3B51DDCF2B221A7A00C757CF /* StateObjectView.swift in Sources */,
+				081233142CB3734600F84F31 /* HomeListView.swift in Sources */,
 				08789F8B2B58AE17004163D1 /* SecondView.swift in Sources */,
 				08DBF6FF2B6737D4009855CB /* ScrollViewReaderView.swift in Sources */,
 				08789F8D2B58AE1C004163D1 /* ThirdView.swift in Sources */,
@@ -333,9 +351,11 @@
 				08789F892B58AE10004163D1 /* FirstView.swift in Sources */,
 				08789F8F2B58AE23004163D1 /* RenderView.swift in Sources */,
 				3B51DDCD2B22191700C757CF /* FruitViewModel.swift in Sources */,
+				081233182CB3759500F84F31 /* PaintInfo.swift in Sources */,
 				08A997D32B33FDA70014F24C /* FinalView.swift in Sources */,
 				08A997D12B33FD520014F24C /* DetailView.swift in Sources */,
 				08DBF7012B6738A5009855CB /* GridView.swift in Sources */,
+				081233102CB372DB00F84F31 /* RoomInfo.swift in Sources */,
 				3B51DDC92B2208EB00C757CF /* StateView.swift in Sources */,
 				08DBF6FD2B67377A009855CB /* MovingTabView.swift in Sources */,
 				3B51DDC72B22082200C757CF /* FruitModel.swift in Sources */,
